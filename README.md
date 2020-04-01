@@ -1,8 +1,10 @@
 ## Getting Started
 
-clone the repo git clone https://github.com/Muzammil98/react-native-redux-boilerplate/
-cd into with_redux
-npm install
+clone the repo _git clone https://github.com/Muzammil98/react-native-redux-boilerplate.git_
+
+cd into _with_redux_
+
+run _npm install_
 and you are ready for development :) 
 
 
