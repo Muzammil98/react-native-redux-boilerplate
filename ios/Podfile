@@ -21,8 +21,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'with_redux' do
-  # Pods for with_redux
+target 'ReduxNative' do
+  # Pods for ReduxNative
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -54,7 +54,7 @@ target 'with_redux' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'with_reduxTests' do
+  target 'ReduxNativeTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -71,10 +71,10 @@ target 'with_redux' do
   end
 end
 
-target 'with_redux-tvOS' do
-  # Pods for with_redux-tvOS
+target 'ReduxNative-tvOS' do
+  # Pods for ReduxNative-tvOS
 
-  target 'with_redux-tvOSTests' do
+  target 'ReduxNative-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

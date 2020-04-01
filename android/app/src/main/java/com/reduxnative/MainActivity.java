@@ -1,4 +1,4 @@
-package com.with_redux;
+package com.reduxnative;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "with_redux";
+    return "ReduxNative";
   }
 }

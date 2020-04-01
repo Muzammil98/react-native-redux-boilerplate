@@ -1,6 +1,6 @@
 {
-  "name": "with_redux",
-  "displayName": "with_redux",
+  "name": "ReduxNative",
+  "displayName": "Redux Native",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
