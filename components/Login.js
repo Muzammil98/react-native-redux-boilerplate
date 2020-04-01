@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Button, Text, H1} from 'native-base';
-import Icon from 'react-native-vector-icons/Entypo';
 import {connect} from 'react-redux';
-import {loginUser, logoutUser} from '../redux/actions/authActions'; // Action i want to use
+
+import {loginUser, logoutUser} from '../redux/actions/authActions';
 
 class Login extends Component {
   render() {

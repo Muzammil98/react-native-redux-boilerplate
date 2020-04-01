@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {Container, Spinner} from 'native-base';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
-import {store, persistor} from './store';
 
+import {store, persistor} from './store';
 import Login from './components/Login';
 
 class App extends Component {
