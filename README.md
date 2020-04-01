@@ -1,11 +1,15 @@
 ## Getting Started
 
-clone the repo _git clone https://github.com/Muzammil98/react-native-redux-boilerplate.git_
+clone the repo ` git clone https://github.com/Muzammil98/react-native-redux-boilerplate.git` 
 
-cd into _with_redux_
+cd into ` ./with_redux` 
 
-run _npm install_
+run ` npm install` 
+
+(Optional) Rename your application with just one command, run `npx react-native-rename "My App"` 
+
 and you are ready for development :) 
+
 
 
 ## Guide to use redux with redux-persist in your React Native applications
