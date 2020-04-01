@@ -34,14 +34,14 @@ ___
 
 
 ### Making the file structure
-In your project folder where your __Index.js__ and __App.js__ are, create a new directory and name it **redux** ,cd into redux and just run the following code
+In your root project folder where your __Index.js__ and __App.js__ are, run the following code
 ```
-$ mkdir reducers ; mkdir actions ;  cd reducers ; touch index.js ; cd .. ; cd actions ; touch authActions.js ; touch types.js ; cd .. ; cd .. ; touch store.js  
+$ touch store.js ; mkdir redux ; cd redux ; mkdir reducers ; mkdir actions ;  cd reducers ; touch index.js; touch authReducer.js ; cd .. ; cd actions ; touch authActions.js ; touch types.js ; cd .. ; cd ..  
 
  ```
- you will get something like this structure in ./redux
+ you will get something like this structure in 
  
- ![Alt text](https://user-images.githubusercontent.com/33463845/77819324-e340d300-70fb-11ea-983b-34ea46394657.png)
+ ![Alt text](https://user-images.githubusercontent.com/33463845/78164502-46679800-7463-11ea-92be-19202fc10fa5.png)
 
 You can either wrap _Provider_ and _PersistGate_ in **App.js** _or_ **Index.js**, i'm going to do it in `App.js`
 
